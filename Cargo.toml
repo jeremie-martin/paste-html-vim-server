@@ -1,0 +1,15 @@
+[package]
+name = "paste-html-vim-server"
+version = "0.1.0"
+authors = ["Martin Jérémie <martin.jeremie42@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3"
+serde = { version = "1.0", features = ["derive"] }
+rand = "0.8.3"
+regex = "1.4.3"
+num = "0.4.0"
+itertools = "0.10.0"
